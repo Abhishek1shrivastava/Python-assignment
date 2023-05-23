@@ -1,1 +1,10 @@
-def
+a  = int(input("Enter first no :) 
+b =  int(input("enter second no:)
+
+c = a+b
+a = c-a
+b = c-b
+print("after swapping no is :)
+print("first no is ",a) 
+print(" second no is ",b) 
+
