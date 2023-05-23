@@ -1,0 +1,9 @@
+def palindrome(n):
+    l = str(n)
+    a = l[: : -1]
+    if(n == a):
+        print('its a palindrome')
+    else:
+        print('its not a palindrome')
+
+palindrome("31")
